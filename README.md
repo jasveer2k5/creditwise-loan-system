@@ -70,41 +70,6 @@ Total loan records - Approved and rejected loan counts - Loan approval
 distribution - Feature correlation heatmap - Model performance
 comparison - Confusion matrix - Loan prediction interface - Dataset
 preview/upload section
-
-How to Run This Project-
-
-1. Clone the repository
-git clone https://github.com/your-username/creditwise-loan-system.git
-cd creditwise-loan-system
-2. Install dependencies
-pip install numpy pandas scikit-learn matplotlib seaborn jupyter
-
-Or:
-
-pip install -r requirements.txt
-3. Add the dataset
-
-Place loan_approval_data.csv in the project directory.
-
-4. Run the notebook
-jupyter notebook
-
-Open credit_wise.ipynb and run the cells in order.
-
-5. Run the dashboard
-
-If app.py is included:
-
-streamlit run app.py
-Project Structure
-creditwise-loan-system/
-├── credit_wise.ipynb
-├── loan_approval_data.csv
-├── app.py
-├── requirements.txt
-├── README.md
-└── assets/
-    └── dashboard.png
     
 Result & Conclusion-
 
